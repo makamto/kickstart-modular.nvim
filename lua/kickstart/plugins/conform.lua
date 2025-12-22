@@ -31,6 +31,7 @@ return {
       end,
       formatters_by_ft = {
         lua = { 'stylua' },
+        text = { 'trim_whitespace' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
